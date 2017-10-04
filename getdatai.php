@@ -11,6 +11,7 @@
 $host='ec2-54-225-88-199.compute-1.amazonaws.com:5432';
 $user='xdqjgaozhtaasr';
 $pass='54258cdfb513438027c94e35444ce15e3475d0ac4a620f735cd2bd8c3fd19393';
+ echo "hello ";
  mysql_select_db('ds0d1s0hfqnab');
  echo "hello ";
 $conn=mysql_connect($host,$user,$pass);

@@ -4,7 +4,7 @@ $host='ec2-54-225-88-199.compute-1.amazonaws.com:5432';
 $user='xdqjgaozhtaasr';
 $pass='54258cdfb513438027c94e35444ce15e3475d0ac4a620f735cd2bd8c3fd19393';
 echo "before connection";
-$conn=mysql_connect($host,$user,$pass);
+$conn=mysql_connect($host,$user,$pass) or die("connection error");
  echo "before after connection and before select db";
  mysql_select_db('ds0d1s0hfqnab');
  
